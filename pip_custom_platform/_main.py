@@ -5,11 +5,12 @@ from __future__ import unicode_literals
 
 import argparse
 import contextlib
-import distutils.util
 import os
 import shutil
 import sys
 import tempfile
+
+import distutils.util
 
 try:  # pragma: no cover (pip>=10)
     from pip._internal.commands import get_summaries

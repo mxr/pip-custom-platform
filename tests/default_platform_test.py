@@ -2,11 +2,11 @@ from __future__ import print_function
 from __future__ import unicode_literals
 
 import collections
-import distutils.util
 import functools
 import os.path
 import subprocess
 
+import distutils.util
 import mock
 import pytest
 
